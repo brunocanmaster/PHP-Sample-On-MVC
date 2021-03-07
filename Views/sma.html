@@ -1,0 +1,262 @@
+<!--
+To change this template, choose Tools | Templates
+and open the template in the editor.
+-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <link rel="stylesheet" type="text/css" href="/Views/css/sma.css"  />
+        <script src="/Views/js/time.js"></script>
+      
+    </head>
+    <body onload="startTime()">
+        
+        
+          <div id="topo" class="corpo">
+            
+            
+            <div class="centraliza">
+            <a id="logo" href="/home/">Legendaz</a>
+            
+            <form id="sustenta_busca"  method="post" action="/home/busca" >
+                <input type="search" name="busca" id="busca" />
+                <input type="submit" id="enviar" value="" />
+                
+               
+                
+            </form>
+            <!-- 
+            <div id="sustenta_favorito">
+                <div id="hover_favorito" >
+                    teste
+                </div>
+            </div>
+            <div id="sustenta_historico">
+                <div id="hover_historico">
+                    
+                </div>
+            </div>
+            -->
+         
+            
+            <!-- #$login$# -->
+            <div id="login" style="display: block !important;"><a href="/login">CONECTAR</a> / <a href="/cadastro">CADASTRAR</a></div>
+            <!-- END #$login$# -->
+            
+            <!-- #$login_late$# -->
+            <div id="login_late">
+                <!-- #$IMG$# -->
+                <div id="name_login_late"><!-- #$NAME$# --></div>
+                <div id="button_login_late">▼</div>
+                
+                
+                <div id="configs_login_late">
+                    <div id="text_horas"></div>
+                    <div id="icon_horas"></div>
+           
+                    
+                    <div id="favoritos_account_sustain" class="lines_configs_login_late">
+                        <a class="text_configs_login_late" href="/home/meusfavoritos">Meus favoritos</a>
+                        <div id="favoritos_account" class="icons_configs_login_late"></div>
+                    </div>
+                    
+                     <div class="lines_configs_login_late">
+                         <a class="text_configs_login_late" href="/admin">Admin</a>
+                         <div id="admin" class="icons_configs_login_late"></div>
+                    </div>
+                    
+                    <div class="lines_configs_login_late">
+                        <a class="text_configs_login_late" href="/home/termos">Termos</a>
+                        <div id="ajuda"  class="icons_configs_login_late"></div>
+                    </div>
+                    
+                       <div class="lines_configs_login_late">
+                        <a href="/home/politicadeprivacidade" class="text_configs_login_late">Política de Privacidade</a>
+                        <div id="ajuda"  class="icons_configs_login_late"></div>
+                    </div>
+                    
+                     <div id="sustenta_logout" class="lines_configs_login_late">
+                        <a href="/logout" class="text_configs_login_late">Logout</a>
+                        <div id="logout" class="icons_configs_login_late"></div>
+                    </div>
+                </div>
+                    
+            </div>
+            <!-- END #$login_late$# -->
+            
+            </div>
+            
+            
+        </div>
+     
+        <div id="corpo">
+           
+            
+            
+            
+            
+            <div id="meio">
+                <div id="sustenta_capa_e_user">
+                    <div id="sustenta_capa">
+                        
+                        
+                            <!-- #$SMAIMG$# -->
+                       
+                            
+                        <div id="likeds_capa" title="Tipo de SMA"><!-- #$SMA-TIP$# --></div>
+                        
+                    </div>
+                    <div id="user_capa" title="Temporadas">
+                       
+                        <!-- #$TEMP-I$#-->
+                    </div>
+                    
+                    
+                </div>
+                
+                <div id="titulo_sma" > <!-- #$TITLE-SMA$# -->
+                
+                    <!-- #$FAVORITO$# -->
+                 
+                </div>
+               
+                <div id="descricao" title="Breve Descrição"> <!-- #$DESCRICAO-SMA$# --></div>
+                
+                
+                <div id="abaixo_meio">
+                    
+                    <div id="downloads_legendas_sma" class="legendas_sma">
+                        Temporadas Lançadas: <!-- #$TEMP$# --></div>
+                    <div id="totais_legendas_sma" class="legendas_sma"> 
+                        Episódios Lançados: <!-- #$EP$# -->
+                        
+                    </div>
+                </div>
+                
+            </div>
+            
+            
+            
+            
+            <div id="abaixo">
+                
+                <div id="topo_abaixo">
+                    <div id="sustenta_equipe">
+                        <div id="sustenta_logo_equipe">
+                        <div id="logo_sustenta_equipe">Usuários</div>   
+                        <div class="abrir_equipe" onclick="open_or_close('lista_equipes')">+</div>
+                        </div>
+                            
+                            <ul id="lista_equipes" type="none" >
+                                <li id="numero_de_equipe"><!-- #$NUM-USUARIOS$# --></li>
+                                
+                                <!-- #$LINHA-USUARIO$# -->
+                           
+                                   
+                          
+                        
+                    </div>
+                    
+                   
+                    
+                    <div id="sustenta_down_legendas">
+                       
+                        
+                        <div id="logo_topo_abaixo" onclick="troca_busca()">Legendas</div>
+                       
+                        
+                        <div class="abrir_equipe" >+</div>
+                        
+                    </div>
+                    
+                    <form id="resulta_down_busca" method="post" action="/sma/download">
+                        
+                        <div class="apresentation   ">Listagem</div>
+                        
+                    
+                            
+                            <!-- #$LINHA-DOWNLOAD$# -->
+                        
+                            
+                       
+                        
+                        <div class="full_line">
+                            <input type="submit" id="submit_downs" value="Download"/>
+                        </div>
+                        
+                    </form>
+                     
+                    
+                </div>
+                
+                    
+                    
+               
+            </div>
+            
+            
+            
+        </div>
+        
+        <div id="rodape">
+            
+            <div class="centraliza">
+                <div id="centro_rodape">
+                    <div class="text_centro_rodape">© 2015</div>
+                    <div class="text_centro_rodape">Legendaz - Porque escreveremos do jeito que quisermos!</div>
+                    <a  href="/home/" class="text_centro_rodape">Página Inicial</a>
+                    <a  href="/home/termos" class="text_centro_rodape">Termos de uso</a>
+                    <a  href="/home/politicadeprivacidade" class="text_centro_rodape retira_borda">Política de Privacidade</a>
+                    <a  href="http://www.facebook.com.br" id="facebook" title="Facebook" class="imgs_centro_rodape"></a>
+                    <a  href="http://www.twitter.com.br" id="twitter" title="Twitter" class="imgs_centro_rodape"></a>
+                </div>    
+            </div>
+            
+        </div>
+        
+        <script type="text/javascript" > 
+            function open_or_close(to_open){
+              
+                if(document.getElementById(to_open).style.display === 'none')
+                {
+                    
+                   document.getElementById(to_open).style.display = 'block';
+                   
+                }
+                else
+                { 
+                   document.getElementById(to_open).style.display = 'none';
+                }
+                
+            }
+            
+            
+           function troca_busca(){
+               
+               
+               var teste = 'teste';
+               if(document.getElementById('busca_simples').style.display === 'none'){
+                   
+                   document.getElementById('busca_simples').style.display = 'block';
+                   document.getElementById('busca_avancada').style.display = 'none';
+                   
+                  
+               }
+               else
+               {
+                   document.getElementById('busca_simples').style.display = 'none';
+                   document.getElementById('busca_avancada').style.display = 'block';
+                  
+                
+               }
+              
+           
+           }
+            
+                
+            
+        </script>
+    </body>
+</html>

@@ -1,0 +1,311 @@
+<html>
+    <head>
+        <title>Adminin | Legendaz </title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <link rel="stylesheet" type="text/css" href="/Views/css/admin.css" />
+    </head>
+    <body>
+       
+            
+           
+        <div id="acima">
+            
+            <div id="sustenta_header">
+                <a id="title" href="/home/" title="Voltar ao Início">Gerenciador de SMA'S</a>
+               
+            </div>
+            
+           
+        </div>
+        
+        <div id="meio">
+            <div id="sustenta_body">
+                
+                <div id="title_body">
+                   
+                    
+                    <div id="menus_body">
+                        
+                        <div id="sustenta_menus_serie">
+                            <div  class="menus_serie" tabindex="1" onclick="hide_and_show('form_adicionar_legenda','form_adicionar_episodio','form_gerenciar_legenda','form_adicionar_serie')">Adicionar SMA</div>
+                            <div  class="menus_serie" tabindex="2" onclick="hide_and_show('form_adicionar_legenda','form_gerenciar_legenda','form_adicionar_serie','form_adicionar_episodio')">Adicionar Legenda</div>
+                    
+                            <div  class="menus_serie" tabindex="3" onclick="hide_and_show('form_adicionar_serie','form_adicionar_episodio','form_gerenciar_legenda','form_adicionar_legenda')">Gerenciar SMA</div>
+                           
+                        </div>
+                        <div id="menus_equipe"></div>
+                        
+                        
+                    </div>
+                </div>    
+                
+                <div id="bodyy">
+                
+                    
+                    
+                    <!-- @FORM ADICIONAR LEGENDA -->
+                    <div id="form_adicionar_legenda" style="display: none;"   >
+                        
+                        
+                            
+                            <div class="linhas_sma_propor" >
+                                <h2>Gerenciar Legenda</h2>
+                            </div>
+                            
+                            <div class="linhas_sma_propor">
+                                
+                                <form action="buscar_legenda" method="post"> 
+                                    <label class="labels_sma">SMA</label>
+                                    <select class="sma_tip" name="sma_name" >
+                                        <!-- #$SMA_NAME$# -->
+                                    </select>
+                                    
+                                    <input class="submit_and_buttons_sma_propor" value="Buscar" type="submit" />
+                                    
+                                   
+                                </form>
+                                
+                                 <div class="sma_propor_errors" style=" margin-top: 0px !important;
+                                      margin-left: 15px !important; margin-bottom: 10px !important"><!-- #$ERRORSMANAME-GSMA$# -->
+                                  
+                                 </div>
+                                
+                                
+                                
+                                
+                                
+                            </div>
+                       
+                        
+                        <div id="legenda" style="display: none">
+                        <div class="linhas_sma_propor border_top">
+                            
+                          
+                            
+                            
+                            <form id="excluir_legenda" action="excluir_legenda" method="post">
+                            <div class="linhas_sma_propor">
+                               
+                            <div class="linhas_sma_propor">
+                                
+                                <!-- #$TITLE-SMA$# -->
+                                <!-- #$NEW-LINE#$ -->
+                               
+                             
+                            </div>
+                            
+                                
+                                <div class="linhas_sma_propor">
+                                    <input class="submit_and_buttons_sma_propor" type="submit" value="Excluir" />
+                                </div>
+                            </form>
+                           
+                        </div>
+                        </div>
+                        
+                        
+                   
+                    </div>
+                    </div>
+                    <!-- @END OF FORM ADICIONAR LEGENDA -->
+                    
+                    
+                    <div id="form_gerenciar_legenda" style="display: none;">
+                   
+                    </div>
+                    <!-- @END OF FORM GERENCIA LEGENDAS -->
+                    
+                   
+                    <!-- @FORM ADICIONAR EPISÓDIO -->
+                     <form id="form_adicionar_episodio"  enctype="multipart/form-data"  method="post" action="add_ep" style="display: none;" >
+                        
+                        <div class="linhas_sma_propor">
+                            <div class="sma_propor_errors no-margin sucesso"><!-- #$SUCESSO-ADD_EP$# --></div>
+                            <h2>Adicionar Legenda</h2>
+                            
+                        </div>
+                        
+                         
+                        <div class="linhas_sma_propor">
+                            <label class="labels_sma">SMA</label>
+                            <select class="sma_tip" name="sma_name">
+                                <!-- #$SMA_NAME$# -->
+                                
+                            </select>
+                            
+                            <div class="sma_propor_errors no-margin"><!-- #$ERRORSMANAME-EP$# --></div>
+                        </div>
+                        
+                        <div class="linhas_sma_propor">
+                            <label class="labels_sma">Temporada</label>
+                            <select class="sma_tip" name="sma_temp">
+                                <option name="sma_temp" value="1">Temporada 1</option>
+                                <option name="sma_temp" value="2">Temporada 2</option>
+                                <option name="sma_temp" value="3">Temporada 3</option>
+                                <option name="sma_temp" value="4">Temporada 4</option>
+                               
+                            </select>
+                            
+                            <div class="sma_propor_errors no-margin"><!-- #$ERRORSMATEMP$# --></div>
+                        </div>
+                         
+                        <div class="linhas_sma_propor">
+                            <label class="labels_sma">Episódio</label>
+                            <select class="sma_tip" name="sma_ep">
+                                
+                                <option name="sma_ep" value="1">Episódio 1</option>
+                                <option name="sma_ep" value="2">Episódio 2</option>
+                                <option name="sma_ep" value="3">Episódio 3</option>
+                                <option name="sma_ep" value="4">Episódio 4</option>
+                                <option name="sma_ep" value="5">Episódio 5</option>
+                                
+                                
+                            </select>
+                            
+                            <div class="sma_propor_errors no-margin"><!-- #$ERRORSMAEP$# --></div>
+                        </div>
+                        
+                         <div class="linhas_sma_propor">
+                             
+                             <label class="labels_sma">Nome Episódio</label>
+                            <input class="sma_name" type="text" name="sma_ep_name" />
+                            
+                            <div class="sma_propor_errors no-margin"><!-- #$ERRORSMA_EP_NAME$# --></div>
+                            
+                         </div>
+           
+                          <div class="linhas_sma_propor">
+                              
+                              <label class="labels_sma">Legenda(.srt)</label>
+                              <input type="file" dir="rtl"  name="sma_legenda" title="Selecionar Legenda" />
+                             <div class="sma_propor_errors no-margin"><!-- #$ERRORSMA_SMA_LEGENDA$# --></div>
+                             
+                         </div>
+                         
+                        <div class="labels_sma">
+                            <input class="submit_and_buttons_sma_propor" type="submit" value="Salvar"/>
+                            <input class="submit_and_buttons_sma_propor" type="reset" value="Limpar" />
+                        </div>
+                         
+                        
+                         
+                     
+                        
+                      
+                    </form>
+                    <!-- @END OF FORM ADICIONAR EPISÓDIO -->
+                    
+                    
+                    
+                    <!-- @FORM ADICIONAR SERIE -->
+                    <form id="form_adicionar_serie"  enctype="multipart/form-data" method="post" action="add_sma" >
+                          
+                        
+                        
+                        <div id="sustenta_form_sma_propor">
+                            
+                        <div class="linhas_sma_propor">
+                                
+                            
+                                <h2>Adicionar SMA</h2>
+                                
+                                
+                                
+                        </div>  
+                            
+                        <div class="linhas_sma_propor">
+                        <label for="sma_name" class="labels_sma" >Nome </label>
+                        <input class="sma_name" name="sma_name" type="text"  />
+                        
+                        </div>
+                       
+                        <div class="linhas_sma_propor">
+                        <label for="sma_tip" class="labels_sma">Tipo </label>
+                        <select class="sma_tip" name="sma_tip">
+                            <option name="sma_tip" value="s" >Serie</option>
+                            <option name="sma_tip" value="m" >Movie</option>
+                            <option name="sma_tip" value="a" >Anime</option>
+                        </select>
+                      
+                        </div>
+                           
+                      
+                        <div class="linhas_sma_propor">
+                        <label for="sma_descricao" class="labels_sma">Descrição </label>
+                        <textarea id="sma_descricao" name="sma_descricao">
+
+                        </textarea>
+                       
+                        </div>
+                        
+                        <div class="linhas_sma_propor">
+                        <label id="label_sma_image" for="sma_image" class="labels_sma">Imagem</label>
+                        <input type="file" dir="rtl" id="sma_image" name="sma_image" title="Selecionar Imagem" />
+                   
+                        </div>
+                        
+                        <div class="linhas_sma_propor">
+                        <input type="submit" id="submit_sma_propor" class="submit_and_buttons_sma_propor" value="Salvar" />
+                        <input type="reset" class="submit_and_buttons_sma_propor" value="Limpar" />
+                        </div>
+                            
+                        </div>
+                        
+                        <div id="sustenta_form_errors_sma_propor" >
+                                
+                            <div class="sma_propor_errors" style="color: green !important;"><!-- #$SUCESSO-ADD_SERIE$# --></div>
+                                 <div class="sma_propor_errors"><!-- #$ERRORSMANAME$# --></div>
+                                 <div class="sma_propor_errors"><!-- #$ERRORSMATIP$# --></div>
+                                 
+                                 <div id="error_descricao_sma_propor" class="sma_propor_errors"><!-- #$ERRORSMADESCRICAO --></div>   
+                                 <div class="sma_propor_errors"><!-- #$ERRORFILE#$ --></div>
+                                 
+                        </div>
+                    </form>
+                    <!-- @END OF FORM ADICIONAR SERIE -->
+                    
+                    
+                </div>
+            </div>
+            
+        </div>
+        
+        <div id="abaixo"></div>
+        <div id="rodape">
+            
+            <div class="centraliza">
+                <div id="centro_rodape">
+                    <div class="text_centro_rodape">© 2015</div>
+                    <div class="text_centro_rodape">Legendaz - Aqui você encontra legenda de qualidade!</div>
+                    <a  href="/home/" class="text_centro_rodape">Página inicial</a>
+                    <a  href="/home/termos" class="text_centro_rodape">Termos de uso</a>
+                    <a  href="/home/politicadeprivacidade" class="text_centro_rodape retira_borda">Política de Privacidade</a>
+                    <a  href="http://www.facebook.com.br" id="facebook" title="Facebook" class="imgs_centro_rodape"></a>
+                    <a  href="http://www.twitter.com.br" id="twitter" title="Twitter" class="imgs_centro_rodape"></a>
+                </div>    
+            </div>
+            
+        </div>
+        <script type="text/javascript">
+            
+          
+            
+           function hide_and_show(tohide1,tohide2,tohide3,toshow){
+            
+           
+                document.getElementById(tohide1).style.display = 'none';
+                document.getElementById(tohide2).style.display = 'none';
+                document.getElementById(tohide3).style.display = 'none';
+                document.getElementById(toshow).style.display = 'block';
+                
+                
+            }
+            
+        
+            <!-- $#DOCUMENT#$ -->
+        </script>
+        
+    </body>
+    
+  
+</html>

@@ -1,0 +1,571 @@
+/* 
+    Document   : admin
+    Created on : 18/10/2013, 15:52:23
+    Author     : Bruno
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+
+*{
+    border: 0px;
+    padding: 0px;
+    text-decoration: none;
+  
+    
+    margin: 0px;
+}
+a{
+    text-decoration: none !important;
+    color: white;
+}
+body{
+      
+ 
+    font-family: cursive;
+    
+  background: url('bd10.jpg')  no-repeat;
+  background-size: 100% 100%;
+
+}
+
+#acima{
+    float:left;
+    width: 100%;
+    border-top: 30px solid #0b86b5;
+
+}
+
+#sustenta_header{
+    margin: 0 auto;
+   
+    width: 990px;
+}
+
+#title{
+    float: left;
+    font-size: 35px;
+    font-weight: bold;
+    font-family: Arial Black;
+  
+    color: white;
+    padding: 0px 10px 0px 10px;
+    padding-bottom: 10px;
+
+        border-radius: 25px 25px  25px 25px;
+       
+
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#0b86b5', endColorstr='#096d93');
+background: -webkit-gradient(linear, left top, left bottom, from(#0b86b5), to(#096d93));
+background: -moz-linear-gradient(top, #0b86b5, #096d93);
+box-shadow: 2px 2px 3px #cccccc;
+-moz-box-shadow: 2px 2px 3px #cccccc;
+-webkit-box-shadow: 2px 2px 3px #cccccc;
+}
+#sustenta_menus{
+    float:left;
+    margin-left: 10px;
+    margin-top: 20px;
+    border-radius: 25px 25px 25px 25px;
+    border: 1px solid #096d93;
+    
+   
+background: #0b86b5;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#0b86b5', endColorstr='#096d93');
+background: -webkit-gradient(linear, left top, left bottom, from(#0b86b5), to(#096d93));
+background: -moz-linear-gradient(top, #0b86b5, #096d93);
+box-shadow: 2px 2px 3px #cccccc;
+-moz-box-shadow: 2px 2px 3px #cccccc;
+-webkit-box-shadow: 2px 2px 3px #cccccc;
+}
+.menus_header{
+    float:left;
+ 
+    height: 30px;
+color: white;
+  text-align: center;
+  line-height: 30px;
+ margin-left: 5px;
+ margin-right: 5px;
+  
+ 
+   padding: 5px;
+}
+.menus_header:hover{
+   color: #fceb77;
+   cursor: pointer;
+}
+
+/* 
+@BEGIN [MEIO] 
+*/
+
+#meio{
+    float:left;
+    width: 100%;
+}
+#sustenta_body{
+    margin: 0 auto;
+    width: 1150px;
+    
+
+
+    margin-top: 15px;
+   box-shadow: 2px 2px 3px #cccccc;
+-moz-box-shadow: 2px 2px 3px #cccccc;
+-webkit-box-shadow: 2px 2px 3px #cccccc; 
+
+
+
+}
+#title_body{
+    float:left;
+    width: 100%;
+    height: 35px;
+    background: #0b86b5;
+    border-radius: 25px 0px 25px 25px;
+    box-shadow: 2px 2px 3px #cccccc;
+    border: 0px !important;
+    
+}
+#equipe{
+    float:left;
+    height: 25px;
+   
+    line-height: 25px;
+    text-align: left;
+  
+   
+padding: 5px;
+    color: white;
+    font-family: cursive;
+     box-shadow: 2px 2px 3px 1px black;
+    border-radius: 25px 25px 25px 25px;
+}
+#equipe:hover{
+   box-shadow: 2px 2px 3px black;
+   cursor: default;
+   color: #fceb77;
+}
+
+#menus_body{
+    
+    float:left;
+    
+}
+#sustenta_menus_serie{
+    float:left;
+    margin-left: 15px;
+}
+.menus_serie
+{
+    float:left;
+    margin-left: 10px;
+    margin-top: 5px;
+    height: 25px;
+    line-height: 25px;
+    padding-left: 10px;
+    padding-right: 10px;
+   
+    border-radius: 25px 25px 25px 25px;
+    border: 1px solid silver;
+    background: tomato;
+    
+    border-bottom: 1px solid #ccc;
+border-left: 1px solid #ccc;
+background: #e9e9e9;
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fbfbfb', endColorstr='#e9e9e9');
+background: -webkit-gradient(linear, left top, left bottom, from(#fbfbfb), to(#e9e9e9));
+background: -moz-linear-gradient(top, #fbfbfb, #e9e9e9);
+
+
+
+cursor: pointer;
+}
+
+.menus_serie:focus{
+    
+     
+   background: #0b86b5;
+   border: none;
+   color: #fceb77;
+}
+
+/*
+
+#OPTION_SMA_PROPOR
+
+*/
+#bodyy{
+    float:left;
+    
+   margin-top: 40px;
+    margin-left: 10px; 
+
+    width: 900px;
+   
+}
+#sustenta_form_sma_propor{
+    float:left;
+    width: 400px;
+    
+
+}
+.linhas_sma_propor{
+    float: left;
+    width: 100%;
+   
+    margin-bottom:10px;
+    margin-top: 05px;
+    
+   
+    
+}
+.table_sma_propor{
+    background: blue;
+    float: left;
+    padding: 5px;
+    margin-left: 10px;
+    width: 50px;
+}
+.sucesso{
+    color: green !important;
+    float: right !important;
+}
+.border_bottom{
+    border-style: ridge;
+    border-bottom: 1px dotted silver;
+}
+.border_top{
+    border-top: 1px solid silver;
+}
+.img_sma{
+   
+    float: left;
+    width: 50px;
+    height: 50px;
+    
+    line-height: 50px;
+    font-weight: bold;
+    text-align: center;
+   
+    margin-left: 10px;
+    margin-right: 05px;
+    
+    padding-left: 10px;
+    padding-right: 10px;
+    
+    margin-bottom: 10px;
+    border: 1px solid silver;
+    
+    cursor: pointer;
+    
+     background: #e9e9e9;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fbfbfb', endColorstr='#e9e9e9');
+    background: -webkit-gradient(linear, left top, left bottom, from(#fbfbfb), to(#e9e9e9));
+    background: -moz-linear-gradient(top, #fbfbfb, #e9e9e9);
+    cursor: pointer;
+}
+
+.nome_sma{
+    
+    
+}
+
+.nome{
+    
+    border: 0px !important;
+    margin-left:55px !important;
+}
+.temp{
+    
+    border: 0px !important;
+    margin-left:35px !important;
+}
+.ep{
+    border: 0px !important;
+}
+.legenda{
+    
+    border: 0px !important;
+    margin-left: 25px !important;
+}
+.text_sma{
+    
+   
+    float: left;
+    height: 30px;
+    line-height: 30px;
+    
+
+   
+    text-align: center;
+    
+    
+    border: 1px solid silver;
+    
+    font-size: 18px;
+    
+    padding: 5px;
+    
+      background: #e9e9e9;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fbfbfb', endColorstr='#e9e9e9');
+    background: -webkit-gradient(linear, left top, left bottom, from(#fbfbfb), to(#e9e9e9));
+    background: -moz-linear-gradient(top, #fbfbfb, #e9e9e9);
+    cursor: pointer;
+
+    
+    
+
+}
+.text_sma:hover{
+    background: green;
+    cursor: default;
+    color: white;
+}
+
+.margin-top{
+    
+ 
+   margin-left: 05px;
+   margin-top: 10px
+}
+
+.submits_sma{
+    float: left;
+   
+    padding: 05px;
+    border-radius: 25px;
+  
+    border: 1px solid silver;
+}
+.labels_sma{
+  
+
+    float: left;
+    margin-left: 15px;
+
+   
+    height: 30px;
+    line-height: 30px;
+      
+}
+
+
+.labels_checkbox_sma{
+    
+    float: none !important;    
+}
+.labels_checkbox_sma:hover{
+    
+    cursor: pointer;
+}
+
+/* OPTION_SMA_TEMP_EP */
+.options_forms_admin{
+    
+   
+    float: left;
+}
+
+/* OPTION_SMA_PROPOR */
+#option_sma_propor{
+    float:left;
+    
+}
+.sma_name{
+    
+    float:left;
+     border: 1px solid silver;
+    width: 250px;
+    height: 30px;
+    margin-left: 10px;
+    
+    background: #e9e9e9;
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fbfbfb', endColorstr='#e9e9e9');
+background: -webkit-gradient(linear, left top, left bottom, from(#fbfbfb), to(#e9e9e9));
+background: -moz-linear-gradient(top, #fbfbfb, #e9e9e9);
+}
+
+.sma_file{
+    
+    margin-left: 10px;
+}
+
+.sma_tip{
+    
+    float:left;
+    
+    border: 1px solid silver;
+    margin-left: 10px;
+    width: 150px;
+    height: 30px;
+    line-height: 30px;
+    
+    background: #e9e9e9;
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fbfbfb', endColorstr='#e9e9e9');
+background: -webkit-gradient(linear, left top, left bottom, from(#fbfbfb), to(#e9e9e9));
+background: -moz-linear-gradient(top, #fbfbfb, #e9e9e9);
+}
+
+
+#sma_descricao{
+    
+    float:left;
+   
+     border: 1px solid silver;
+     min-width:  380px;
+     max-width: 380px;
+      
+     min-height: 300px;
+     max-height: 300px;
+    
+     margin-left: 10px;
+     margin-top: 5px;
+     
+     background: #e9e9e9;
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fbfbfb', endColorstr='#e9e9e9');
+background: -webkit-gradient(linear, left top, left bottom, from(#fbfbfb), to(#e9e9e9));
+background: -moz-linear-gradient(top, #fbfbfb, #e9e9e9);
+
+}
+#label_sma_image{
+   float:left;
+
+   margin-top: 10px;
+}
+#sma_image{
+    
+    float:left;
+    margin-top: 15px;
+    margin-left: 10px;
+    width: 200px;
+    
+  
+    
+
+}
+.submit_and_buttons_sma_propor{
+       float:left;
+    width: 150px;
+    height: 30px;
+
+    border: 1px solid silver;
+    margin-left: 30px;
+    
+   border-radius: 25px;
+   
+    background: #e9e9e9;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fbfbfb', endColorstr='#e9e9e9');
+    background: -webkit-gradient(linear, left top, left bottom, from(#fbfbfb), to(#e9e9e9));
+    background: -moz-linear-gradient(top, #fbfbfb, #e9e9e9);
+    cursor: pointer;
+}
+
+#sustenta_form_errors_sma_propor{
+    float:left;
+    width: 150px;
+    margin-top: 05px;
+}
+
+.sma_propor_errors{
+    float:left;
+    min-width:  350px;
+    height: 30px;
+    width: auto;
+  
+    
+    
+
+    margin-bottom: 10px;
+
+    color: red;
+  
+}
+.no-margin{
+    
+    float: right;
+    margin-top: 0px;
+    margin-right:  30px;
+}
+#error_descricao_sma_propor{
+    margin-top: 175px !important;
+    margin-bottom: 170px !important;
+    
+    
+}
+
+/* rodape */
+
+  .centraliza{
+      margin: 0 auto;
+      width: 900px;
+ 
+  }
+#rodape{
+      float:left;
+      width: 100%;
+      height: 100px;
+      background: #555;
+      margin-top: 500px;
+     
+  }
+  #centro_rodape{
+      float:left;
+      width: 950px;
+      height: 30px;
+      background: black;
+      border-radius: 25px;
+      margin-top: 35px;
+  }
+  .text_centro_rodape{
+      margin-top: 07px;
+      float: left;
+      color: white;
+      border-right:  1px solid #CCC;
+      padding-right: 10px;
+      margin-left: 15px;
+      
+      font-family: 'Segoe UI',Arial,Helvetica,sans-serif;
+      font-size: 13px;
+  }
+  a:hover{
+      text-decoration: none;
+      color: red;
+  }
+  .retira_borda{
+      border: 0px !important;
+      margin-right: 30px;
+  }
+  .imgs_centro_rodape{
+      float:left;
+      
+      width: 30px;
+      height: 30px;
+      border-radius: 25px
+
+      
+      
+     
+  }
+  
+  #facebook{
+      background: url('sprite_1.png') -19px 0px #2C61AA;
+       border-bottom-right-radius:  800px;
+  
+  }
+  #facebook:hover{
+      background: url('sprite_1.png') -19px 0px red;
+      cursor: pointer;
+      border-radius: 0px;
+  }
+  #twitter{
+      background: url('sprite_1.png') -51px 0px #2C61AA;
+      margin-left: 05px;
+      border-bottom-left-radius:  800px;
+  }
+  #twitter:hover{
+      background: url('sprite_1.png') -51px 0px red;
+      cursor: pointer;
+      border-radius: 0px;
+  }

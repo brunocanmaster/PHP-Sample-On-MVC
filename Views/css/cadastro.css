@@ -1,0 +1,197 @@
+/* 
+    Document   : cadastro
+    Created on : 27/02/2015, 19:31:51
+    Author     : alunos.senai
+    Description:
+        Purpose of the stylesheet follows.
+*/
+*{
+    margin: 0px;
+    padding: 0px;
+    
+}
+root { 
+    display: block;
+}
+body{
+    background: aliceblue;
+     font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+
+  
+  /* CADASTRO - HTML - COMEÇA AQUI */
+#sustenta_corpo{
+    float:left;
+    width: 100%;
+    margin-top: 100px;
+  
+  
+}
+.centraliza{
+    margin: 0 auto;
+    width: 900px;
+}
+
+.corpo{
+    float: left;
+    border-right: 30px solid #2DB3E9;
+    
+}
+
+#topo_corpo{
+    width: 900px;
+    
+    background: #2DB3E9;
+    border-radius: 25px;
+    border-bottom-right-radius: 0px;
+    
+}
+.text{
+    float:left;
+    margin-top: 5px;
+    margin-left: 5px;
+    color: white;
+    font-weight: bold;
+    font-family: arial;
+    font-size: 25px;
+    padding: 5px;
+    margin-bottom: 5px;
+    text-decoration: none;
+}
+.text:hover{
+    color: white;
+}
+
+#centro{
+    width: 900px;
+    
+}
+.lines{
+    float:left;
+    width: 100%;
+    margin-top: 5px;
+}
+.labels{
+    float:left;
+    
+    height: 30px;
+    line-height: 30px;
+    color: #333;
+    font-family: sans-serif;
+  
+    margin-left: 100px;
+    margin-top: 15px;
+    font-size: 20px;
+}
+.input{
+    float:left;
+    width: 350px;
+    height: 30px;
+    margin-left: 15px;
+    margin-top: 13px;
+   
+   
+}
+.errors{
+    float:left;
+    
+    height: 30px;
+    line-height: 30px;
+    color: #333;
+   
+    margin-left: 15px;
+    margin-top: 15px;
+    font-size: 15px;
+    color: red;
+}
+.botoes{
+    width: 250px !important;
+}
+.margin-bottom{
+    margin-bottom: 20px;
+}
+
+#abaixo{
+    
+    border-right: 0 !important;
+    float:left;
+    width: 800px;
+    height: 30px;
+   
+    margin-left: 130px;
+    border-radius: 25px;
+        background: #2DB3E9;
+    border-top-right-radius: 0px;
+
+}
+
+#rodape{
+      float:left;
+      width: 100%;
+      height: 100px;
+      background: #555;
+      
+      position: absolute;
+      bottom: 0;
+     
+  }
+  #centro_rodape{
+      float:left;
+      width: 950px;
+      height: 30px;
+      background: black;
+      border-radius: 25px;
+      margin-top: 35px;
+  }
+  .text_centro_rodape{
+      margin-top: 07px;
+      float: left;
+      color: white;
+      border-right:  1px solid #CCC;
+      padding-right: 10px;
+      margin-left: 15px;
+      
+      font-family: 'Segoe UI',Arial,Helvetica,sans-serif;
+      font-size: 13px;
+  }
+  a:hover{
+      text-decoration: none;
+      color: red;
+  }
+  .retira_borda{
+      border: 0px !important;
+      margin-right: 30px;
+  }
+  .imgs_centro_rodape{
+      float:left;
+      
+      width: 30px;
+      height: 30px;
+      border-radius: 25px
+
+      
+      
+     
+  }
+  
+  #facebook{
+      background: url('sprite_1.png') -19px 0px #2C61AA;
+       border-bottom-right-radius:  800px;
+  
+  }
+  #facebook:hover{
+      background: url('sprite_1.png') -19px 0px red;
+      cursor: pointer;
+      border-radius: 0px;
+  }
+  #twitter{
+      background: url('sprite_1.png') -51px 0px #2C61AA;
+      margin-left: 05px;
+      border-bottom-left-radius:  800px;
+  }
+  #twitter:hover{
+      background: url('sprite_1.png') -51px 0px red;
+      cursor: pointer;
+      border-radius: 0px;
+  }

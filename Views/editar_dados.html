@@ -1,0 +1,154 @@
+<!--
+To change this template, choose Tools | Templates
+and open the template in the editor.
+-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <link rel="stylesheet" type="text/css" href="/Views/css/edita_dados.css" />
+        <script src="/Views/js/time.js"></script>
+    </head>
+    <body onload="startTime()">
+       
+        <div id="topo" class="corpo">
+            
+            
+            <div class="centraliza">
+            <a id="logo" href="/home/">Legendaz</a>
+            
+            <form id="sustenta_busca" method="post" action="/home/busca"  >
+                <input type="search" id="busca" />
+                <input type="image"  id="enviar"  value=" " />
+               
+                
+            </form>
+          
+            
+            <div id="sustenta_menus" style="display: none;">Menus
+                <div id="hover_sustenta_menus" style="display: none;" role="menu" aria-labelledby="dLabel">
+                   <div class="menus">Menu1</div>
+                   <div class="menus">Menu2</div>
+                   <div class="menus">Menu3</div>
+                   <div class="menus">Menu4</div>
+                </div>
+            </div>
+            
+            <div id="login"><a href="login.html">CONECTAR</a> / <a href="cadastro.html">CADASTRAR</a></div>
+            
+            <div id="login_late">
+                <!-- #$IMG$# -->
+               
+                <div id="name_login_late">Teste</div>
+                <div id="button_login_late">▼</div>
+                
+               <div id="configs_login_late">
+                    <div id="text_horas"></div>
+                    <div id="icon_horas"></div>
+                    
+                    <div class="lines_configs_login_late">
+                        <a class="text_configs_login_late" href="/editadados">Editar Conta</a>
+                        <div id="edit_account" class="icons_configs_login_late"></div>
+                    </div>
+                    
+                    <div id="favoritos_account_sustain" class="lines_configs_login_late">
+                        <a class="text_configs_login_late" href="/editadados">Meus favoritos</a>
+                        <div id="favoritos_account" class="icons_configs_login_late"></div>
+                    </div>
+                    
+                     <div class="lines_configs_login_late">
+                         <a class="text_configs_login_late" href="/admin">Admin</a>
+                         <div id="admin" class="icons_configs_login_late"></div>
+                    </div>
+                    
+                    <div class="lines_configs_login_late">
+                        <div class="text_configs_login_late">Ajuda</div>
+                        <div id="ajuda"  class="icons_configs_login_late"></div>
+                    </div>
+                    
+                     <div id="sustenta_logout" class="lines_configs_login_late">
+                        <a href="logout" class="text_configs_login_late">Logout</a>
+                        <div id="logout" class="icons_configs_login_late"></div>
+                    </div>
+                </div>
+                    
+            </div>
+            </div>
+            
+            
+        </div>
+        
+        <div id="corpo">
+            
+            <div class="centraliza">
+            
+            <!-- #$editar-dados$# -->
+            <form>
+                <div id="title_sustenta_dados">Editar Dados da Conta</div>
+                <div id="sustenta_img">
+                    <!-- #$IMG-TWO$# -->
+                  
+                    
+                        <input id="button_img" type="file" name="sma-img"  />
+                        
+                 
+                </div>
+                
+                <div id="sustenta_dados">
+                  
+                    
+                    <div class="lines_dados">
+                    <label for="login">Nome</label>
+                    <input class="inputs_dados" type="text" name="user-name" placeholder="<!-- #$NAME$# -->" />
+                   
+                    </div>
+                    <div class="error_dados"></div>
+                    
+                    <div class="lines_dados">
+                    <label for="login">Senha Antiga</label>
+                    <input class="inputs_dados" type="password" name="user-old-password" />
+                   
+                    </div>
+                      <div class="error_dados"></div>
+                    
+                    <div class="lines_dados">
+                    <label for="login">Nova Senha</label>
+                    <input class="inputs_dados" type="password" name="user-new-password" />
+                  
+                    </div>
+                       <div class="error_dados"></div>
+                       
+                    
+                       
+                       <div class="lines_dados">
+                           <input id="submit_dados" class="submit_reset_dados" type="submit"  value="Salvar"/>
+                           <input id="reset_dados"  class="submit_reset_dados" type="reset" />
+                       </div>
+                </div>
+            </form>
+            
+            <!-- END #$editar-dados$# -->
+                
+            </div>
+            
+        </div>
+        
+        
+        <div id="rodape">
+            
+            <div class="centraliza">
+                <div id="centro_rodape">
+                    <div class="text_centro_rodape">© 2015</div>
+                    <div class="text_centro_rodape">Legendaz - Porque escreveremos do jeito que quisermos!</div>
+                    <a  href="#" class="text_centro_rodape">Institucional</a>
+                    <a  href="#" class="text_centro_rodape">Termos de uso</a>
+                    <a  href="#" class="text_centro_rodape retira_borda">Política de Privacidade</a>
+                    <a  href="http://www.facebook.com.br" id="facebook" title="Facebook" class="imgs_centro_rodape"></a>
+                    <a  href="http://www.twitter.com.br" id="twitter" title="Twitter" class="imgs_centro_rodape"></a>
+                </div>    
+            </div>
+            
+        </div>
+    </body>
+</html>

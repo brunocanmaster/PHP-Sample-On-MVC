@@ -1,0 +1,1200 @@
+/* 
+    Document   : sma
+    Created on : 27/12/2013, 20:48:58
+    Author     : Bruno
+    Description:
+        Purpose of the stylesheet follows.
+*/
+.corpo{
+    width: 100%;
+    float: left;
+    min-width: 1000px;
+}
+* { 
+  
+    margin: 0px;
+    padding: 0px;
+    
+}
+body{
+   background-color: rgba(0, 0, 0, 0.03);
+   
+   
+  background: url('bd10.jpg')  no-repeat;
+  background-size: 100% 100%;
+   
+   
+   
+}
+
+a{
+    
+    text-decoration: none !important;
+    
+   
+}
+
+
+#topo{
+
+      
+min-height: 70px;
+background: transparent;
+color: #1CAFF6;
+max-height: 70px;
+border-top: 10px solid #555;
+
+box-shadow: 0px 0px 10px 0px black;
+ 
+
+  }
+  .centraliza{
+      margin: 0 auto;
+      width: 900px;
+     background: blue;
+  }
+ 
+  #topo #logo{
+          float: left;
+    margin-top: 0px;
+    color: white;
+    font-size: 35px;
+    font-family: cursive;
+    font-weight: bold;
+    color: #555;
+    padding: 5px;
+  }
+ #topo #logo:hover{
+      cursor: pointer;
+    border-bottom: 3px solid #555;
+  }
+    #topo #sustenta_busca{
+      float:left;
+      margin-top: 25px;
+     
+      margin-left: 80px;
+      
+       border: 1px solid #58b1fc;
+     
+  }
+  #topo #sustenta_busca #busca{
+      float:left;
+      width: 250px;
+      height: 30px;
+     
+      
+      
+  }
+
+  #topo #sustenta_busca #enviar{
+      background: url('search.png') #58b1fc no-repeat 15px 5px !important;
+      width: 50px;
+      height: 35px;
+      float: left;
+      border: 1px solid #58b1fc !important;
+      text-decoration: none;
+      
+ 
+     
+      
+  }
+  #topo #sustenta_favorito{
+      float:left;
+      width: 20px;
+      height: 20px;
+      background: url('cleanheader.png') -20px -80px white;
+      border-radius: 5px;
+    margin-left: 50px;
+    margin-top: 30px;
+  }
+  #hover_favorito{
+      float:left;
+      width: 250px;
+      height: 150px;
+      margin-top: 20px;
+      background: white;
+      border: 1px solid #555;
+      border-radius: 10px;
+      display: none;
+      border: 2px solid white;
+  }
+  #topo #sustenta_favorito:hover{
+      cursor: pointer;
+      background: url('cleanheader.png') -20px -80px white;
+       border-radius: 5px;
+        border: 2px solid #1CAFF6;
+  }
+  #topo #sustenta_favorito:hover #hover_favorito{
+      display: block;
+     
+  }
+  #topo #sustenta_historico{
+      float: left;
+      width: 20px;
+      height: 20px;
+      background: url('cleanheader.png') -40px -80px white;
+      border-radius: 5px;
+      margin-left: 20px;
+      margin-top: 30px;
+    
+  }
+  #hover_historico{
+       float:left;
+      width: 250px;
+      height: 150px;
+      margin-top: 20px;
+      background: white;
+      border: 1px solid #555;
+      border-radius: 10px;
+      display: none;
+  }
+  #topo #sustenta_historico:hover{
+      cursor: pointer;
+      background: url('cleanheader.png') -40px -80px white;
+      border-radius: 5px;
+      border: 2px solid #1CAFF6;
+  
+  }
+  #topo #sustenta_historico:hover #hover_historico{
+      display: block;
+  }
+  #topo #sustenta_busca #enviar{
+      float: left;
+      height: 30px;
+      border: 1px solid silver;
+      background: white;
+  }
+  #topo #sustenta_menus{
+      float: left;
+      
+      margin-left: 30px;
+      background: white;
+      height: 50px;
+      line-height: 50px;
+      color: white;
+      width: 100px;
+      text-align: center;
+
+      background:#1CAFF6;
+      border-right: 5px solid black;
+      
+    
+  }
+   #topo #login{
+       
+       display: none;
+       
+       text-decoration: none;
+      float: right;
+      padding: 10px;
+      font-size: 11px;
+      height: 20px;
+       line-height: 20px;
+font-family: "lucida grande",tahoma,verdana,arial,sans-serif;
+     border-bottom-left-radius: 05px;
+     border-bottom-right-radius: 05px;
+     
+      text-align: center;
+     
+      background:#555;
+  
+      font-weight: bold;
+     
+      font-family: Cursive;
+      padding-left: 25px;
+      padding-right: 25px;
+      padding-bottom: 15px;
+      
+      
+   
+      
+  }
+  #login a{
+      color: white !important;
+  }
+  #login a:hover{
+      color: red !important;
+  }
+  /* background-color: rgba(32, 166, 231, 0.8);
+background-image: -moz-linear-gradient(top, #20a8e9, rgba(30,158,220,0.5));
+background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#20A8E9), to(rgba(30, 158, 220, 0.5)));
+background-image: -webkit-linear-gradient(top, #20A8E9, rgba(30, 158, 220, 0.5));
+background-image: -o-linear-gradient(top, #20a8e9, rgba(30,158,220,0.5));
+background-image: linear-gradient(to bottom, #20A8E9, rgba(30, 158, 220, 0.5));
+  */
+  #topo #login_late{
+      
+      float: right;
+      width: 150px;
+      height: 40px;
+
+      padding-left: 5px;
+      padding-right: 5px;
+      padding-bottom: 5px;
+      border-radius: 25px;
+      padding-top: 5px; 
+      border: 1px solid rgba(0, 0, 0, 0.15);
+      border-top: 0px;
+      background: #555;
+    
+  }
+  #topo #login_late:hover{
+      background-color: #555!important;
+      cursor: pointer;
+
+      border-bottom-right-radius: 0px;
+      border-bottom: 0px;
+      border-bottom-left-radius:35px;
+      
+       
+  }
+ 
+  #img_login_late{
+      margin-top: 03px;
+      float:left;
+      width: 33px;
+      height: 32px;
+      float: left;
+      margin-left: 15px;
+     
+      border-radius: 25px;
+      border: 2px solid rgba(255, 255, 255, 0.5);
+        
+    
+      
+  }
+  #name_login_late{
+      float: left;
+      color: white;
+      font-weight: bold;
+      font-size: 11px;
+      max-width: 150px;
+      margin-left: 10px;
+  
+      margin-top: 05px;
+      text-align: left;
+      line-height: 30px;
+      
+      padding-left: 5px;
+      padding-right: 5px;
+  }
+  #button_login_late{
+      color: white;
+      float: left;
+      width: 30px;
+      text-align: center;
+      margin-left: 10px;
+      margin-top: 15px;
+     
+     
+  }
+  
+   #login_late:hover #configs_login_late{
+      display: block !important;
+  }
+  
+#configs_login_late{
+      display: none;
+      float:left;
+      width: 200px;
+      height: 30px;
+      background: red;
+      margin-left: 0px;
+      margin-left: 20px;
+      margin-top: 06px;
+      background:#555;
+      color: white;
+
+      position: relative;
+       
+  }
+  #text_horas{
+      float: left;
+      width: 180px;
+      height: 30px;
+      line-height: 30px;
+ 
+      text-align: center;
+      font-size: 13px;
+      font-weight: bold;
+      
+   
+      
+  }
+  #icon_horas{
+      float: left;
+      width: 15px;
+      height: 15px;
+      margin-top: 08px;
+      margin-right: 05px;
+      background: url('icons-p2.png') no-repeat -190px -174px;
+      
+  
+      
+  }
+  .lines_configs_login_late{
+      float: left;
+      width: 100%;
+      background: white;
+      
+      border-left: 1px solid rgba(0, 0, 0, 0.15);
+       border-right: 1px solid rgba(0, 0, 0, 0.15);
+       
+       
+  }
+  .lines_configs_login_late:hover{
+      background: #58b1fc;
+      border-left:  2px solid #555;
+  }
+  
+  .text_configs_login_late{
+      float: left;
+      width: 150px;
+      height: 30px;
+      line-height: 30px;
+      text-align: center;
+
+      color: #333;
+      font-size: 12px;
+      
+          font-family: cursive;
+      
+  }
+
+  .lines_configs_login_late:hover .text_configs_login_late{
+       color: white;
+  }
+  
+  .icons_configs_login_late{
+      float:left;
+      width: 15px;
+      height: 15px;
+      color: #333;
+      font-size: 12px;
+     
+      margin-top: 08px;
+       
+      background: black;
+  }
+ 
+  #edit_account{
+      
+      background: url('admin.png') no-repeat -7.5px -8px;
+      
+ 
+  }
+  #favoritos_account_sustain:hover #favoritos_account{
+      
+      background: url('icons-p2.png') -12.5px -199.5px red !important;
+      border-radius: 25px;
+      
+  }
+  #favoritos_account{
+      
+      background: url('icons-p2.png') -12.5px -199.5px silver !important;
+      border-radius: 25px;
+  }
+  #favoritos_account:hover{
+      
+      background: url('icons-p2.png') -12.5px -199.5px red !important;
+      border-radius: 25px;
+  }
+  #admin{
+      
+      background: url('adminb.gif') no-repeat;
+      background-size: 100% 100%;
+      
+  }
+  #ajuda{
+      
+      background: url('icon_ajuda.gif') no-repeat ;
+      background-size: 100% 100%;
+  }
+  
+ 
+  #sustenta_logout{
+
+       border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+       border-top: 1px solid rgba(0, 0, 0, 0.15);;
+  }
+  #sustenta_logout:hover{
+      background: #CCC;
+      
+  }
+  #logout{
+      background: url('icons-p2.png') no-repeat -175px -158px;
+     
+      
+  }
+  #topo #sustenta_menus #hover_sustenta_menus{
+      float:left;
+      width: 200px;
+      position: relative;
+      background: white;
+      border-radius: 10px 10px 10px 10px;
+      box-shadow: 0 2px 15px rgba(0, 0, 0, 0.2);
+
+    border-top: 10px solid #fff;
+      border-bottom: 10px solid #FFF;
+      font: 500 15px/20px "museo-sans-rounded",sans-serif;
+    
+      color: #333;
+  }
+  #topo #sustenta_menus:hover{
+      
+      
+      border-radius: 0px;
+      border-top-left-radius: 5px;
+      border-top-right-radius: 5px;
+  }
+  
+  #topo #sustenta_menus:hover #hover_sustenta_menus{
+      display: block !important;
+      
+  }
+  
+ 
+  
+  #topo .menus{
+     margin: 0 auto;
+      
+      height: 25px;
+      line-height: 25px;
+      font-family: Arial;
+      font-weight: bold;
+      color: black;
+      font-size: 15px;
+      
+      padding: 05px;
+      
+      padding-left: 20px;
+      padding-right: 20px;
+  }
+  #topo .menus:hover{
+      background-color: rgba(32, 166, 231, 0.8);
+background-image: -moz-linear-gradient(top, #20a8e9, rgba(30,158,220,0.5));
+background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#20A8E9), to(rgba(30, 158, 220, 0.5)));
+background-image: -webkit-linear-gradient(top, #20A8E9, rgba(30, 158, 220, 0.5));
+background-image: -o-linear-gradient(top, #20a8e9, rgba(30,158,220,0.5));
+background-image: linear-gradient(to bottom, #20A8E9, rgba(30, 158, 220, 0.5));
+cursor: pointer;
+
+ 
+  }
+
+
+
+/*@Begin [CORPO] */
+#corpo{
+    
+    margin: 0 auto;
+    width: 900px;
+}
+
+
+
+
+/*#sustenta_corpo_topo
+{ 
+ float:left;
+ width: 900px;
+}
+#logo
+{
+    float:left;
+    font-size: 45px;
+    font-weight: bold;
+    background: #2DB3E9;
+    border-radius: 25px 0px 25px 25px;
+    padding: 10px;
+    color: white;
+    font-family: Arial Black;
+       background-color: rgb(73, 139, 244);
+     
+
+box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.02) inset, 0px -1px 0px rgba(255, 255, 255, 0.25);
+background-color: rgba(0, 0, 0, 0.03);
+color: black;
+border: 1px solid silver;
+
+}
+#sustenta_login_cadastro{
+    float:left;
+    width: 630px;
+    margin-top: 15px;
+    height: 25px;
+    background:blue;
+}
+#login{
+    float:left;
+    margin-left: 140px;
+    width: 50px;
+    height: 25px;
+    line-height: 25px;
+    text-align: center;
+    
+}#login:hover{}
+#separa{
+      float: left;
+    height: 25px;
+    line-height: 25px;
+    margin-left: 5px;
+    margin-right: 5px;
+    
+}
+#cadastro{
+    float: left;
+   
+     width: 80px;
+    height: 25px;
+    line-height: 25px;
+     text-align: center;
+}#cadastro:hover{}
+    
+#busca
+{
+    float:left;
+    margin-top:  05px;
+    margin-left: 50px;
+    width: 350px;
+    height: 30px;
+    background: red;
+}
+
+#config{
+    float: right;
+    width: 100px;
+    height: 30px;
+    margin-top: 05px;
+    margin-right: 10px;
+    background:red;
+    text-align: center;
+    line-height: 30px;
+}
+
+#options_config{
+    width: 120%;
+    height: 100px;
+    background:blue;
+    
+    display: none;
+    position: relative;
+}
+#config:hover{
+    cursor: initial;
+}
+#config:hover #options_config{
+    display:block;
+}
+
+*/
+
+/*
+@Begin [MEIO]
+*/
+#meio
+{
+    
+    margin-top: 100px;
+    float:left;
+    width: 990px;
+
+}
+#sustenta_capa_e_user{
+    float:left;
+    
+
+    
+}
+#sustenta_capa{
+ float:left;  
+ width: 214px;
+ border-bottom: 10px;   
+}
+#capa{
+
+    float:left;
+    width: 214px;
+    height: 317px;
+    border: 1px solid silver; 
+    border-radius: 5px 0px 0px 0px;
+    
+   
+}
+#likeds_capa{
+    float:left;
+    width: 214px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    border: 1px solid silver;  
+    background: white;
+    color: #555;
+    font-family:cursive;
+    
+}
+#likeds_capa:hover{
+    color: #555;
+    font-weight: bold;
+        cursor: cell;
+}
+#user_capa{
+    float:left;
+    width: 40px;
+    height: 317px;
+    border-right: 1px solid silver;
+    border-top: 1px solid silver;
+    border-bottom: 1px solid silver;
+    border-radius: 0px 25px 25px 25px;
+    background: white;  
+    
+}
+.user_capa_text{
+    float: left;
+    font-size: 13px;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 5%;
+    margin-top: 04px;
+   
+    line-height: 30px;
+    text-align: center;
+    font-weight: bold;
+    font-family: cursive;
+    
+    
+   
+    color: #555;
+}
+.user_capa_text:hover{
+    
+    color: #555;
+    font-weight: bold;
+    cursor: cell;
+
+     border-bottom: 1px solid silver;
+}
+#titulo_sma{
+    float:left;
+    width: 530px;
+
+
+    margin-left: 60px;
+    
+    
+    font-size: 30px;
+    
+     background: white;
+    border: 1px solid silver;
+     padding: 10px;
+     border-radius: 25px 25px 25px 25px;
+     margin-top: 10px;
+     
+     box-shadow: 2px 2px 3px #cccccc;
+-moz-box-shadow: 2px 2px 3px #cccccc;
+-webkit-box-shadow: 2px 2px 3px #cccccc;
+
+
+
+
+}
+#sustenta_favorito_sma{
+    
+    float: right;
+    
+ 
+
+    line-height: 35px;
+}
+#sustenta_favorito_sma:hover{
+    cursor: pointer;
+}
+#sustenta_favorito_sma:hover #icon_favorito{
+     
+     background: url('icons-p2.png') -09px -190.5px red;
+    
+}
+#text_favorito{
+    float: left;
+    font-size: 13px;
+    color: #555;
+    font-family: cursive;
+  
+    
+}
+#icon_favorito{
+    
+  
+    float: left;
+    width: 21px;
+    height: 30px;
+    margin-left: 15px;
+    border-radius: 40px;
+    margin-top: 03px;
+}
+
+.desfavoritado{
+    
+    background: url('icons-p2.png') -09px -190.5px #CCC;
+}
+.desfavoritado:hover{
+    
+    background: url('icons-p2.png') -09px -190.5px red;
+}
+.favoritado{
+   
+    background: url('icons-p2.png') -09px -190.5px red;
+}
+#equipes_sma{
+    float:right;
+    width: 80px;
+    
+    height: 30px;   
+    text-align: center;
+    line-height: 30px;
+    border: 1px solid silver;
+   
+    border-radius: 25px 25px 25px 25px;
+    font-size: 15px !important;
+    
+    
+ 
+    
+}#equipes_sma:hover{
+    display: block;
+    
+    background-color: rgba(0, 0, 0, 0.04);
+border-color: hsl(0, 0%, 70%);
+box-shadow: 0 1px 2px #fff, inset 0 1px 1px rgba(0, 0, 0, 0.1);
+
+transition: -webkit-margin-start 0.3s, width 0.3s;
+transition: margin-start 0.3s, width 0.3s;
+}
+
+
+
+#descricao{
+    float:left;
+    width: 540px;
+    
+    
+  
+    margin-left: 60px;
+    text-align: left;
+    margin-top: 10px;
+    font-size: 18px;
+    margin-bottom: 30px;
+    
+     background: white;
+    border: 1px solid silver;
+    padding: 15px;
+    border-radius: 25px 25px 25px 25px;
+    
+   
+ 
+    box-shadow: 2px 2px 3px #cccccc;
+-moz-box-shadow: 2px 2px 3px #cccccc;
+-webkit-box-shadow: 2px 2px 3px #cccccc;
+
+    
+
+
+
+}
+
+#abaixo_meio{
+    float:left;
+    width: 100%;
+   
+    
+}
+
+.legendas_sma{
+    float:left;
+    width: 200px;
+    height: 30px;
+    
+    margin-left: 325px;
+    text-align: left;
+    line-height: 30px;
+    padding-left: 5px;
+    border-radius: 25px 25px 25px 25px;
+    border: 1px solid silver;
+    margin-bottom: 10px;
+}
+#downloads_legendas_sma{
+    
+    text-align: center;
+}
+#totais_legendas_sma{
+    margin-left: 5px !important;
+    text-align: center;
+   
+}
+/*
+@Begin [ABAIXO]
+*/
+#abaixo
+{
+    float:left;
+    width: 980px;
+  
+ 
+    margin-top: 20px;
+}
+#topo_abaixo{
+    float:left;
+    width: 100%;
+    
+  
+}
+#sustenta_equipe{
+    float:left;
+    width: 100%;
+   
+    
+ 
+    
+}
+#sustenta_logo_equipe{
+    float:left;
+    width: 100%;
+    border-radius: 25px 25px 25px 25px;
+    
+    box-shadow: 2px 2px 3px #cccccc;
+-moz-box-shadow: 2px 2px 3px #cccccc;
+-webkit-box-shadow: 2px 2px 3px #cccccc;
+
+background: white;
+margin-bottom: 5px;
+border: 1px solid silver;
+}
+.abrir_equipe{
+    float:right;
+    width: 50px;
+    height: 50px;
+ 
+    text-align: center;
+    line-height: 50px;
+    margin-right: 1px;
+    border-radius: 25px 25px 25px 25px;
+ 
+    font-family: cursive;
+    font-size: 25px;
+   
+  
+    border-left: 1px solid silver;  
+    
+  
+}.abrir_equipe:hover{ cursor: pointer;
+
+}
+#logo_sustenta_equipe{
+    line-height: 50px;
+    float:left;
+    width: 250px;
+    height: 52px;
+    text-align: center; 
+    border-right: 2px solid silver;
+    border-radius: 25px 25px 25px 25px;
+    font-size: 20px;
+    font-family: cursive;
+    color: #0ca4e2;
+}#logo_sustenta_equipe:hover{ 
+
+ }
+#lista_equipes{
+    
+    float:left;
+    width: 856px;
+    font-size: 15px !important;
+  
+    background: white;
+  
+    border: 1px solid silver;
+   border-radius: 25px 25px 25px 25px;
+   padding: 5px;
+   
+  
+   
+    box-shadow: 2px 2px 3px #cccccc;
+-moz-box-shadow: 2px 2px 3px #cccccc;
+-webkit-box-shadow: 2px 2px 3px #cccccc;
+ margin-left: 20px;
+}
+
+#numero_de_equipe{
+    float:left;
+    width: 98%;
+    height: 30px;
+    line-height: 30px;
+    text-align: left;
+    margin-left: 2%;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: silver;
+    
+}
+
+
+.linha_equipe{
+    
+    float:left;
+    width: 33%;
+    margin-bottom: 5px;
+}.linha_equipe:hover .img_equipe{   border: 1px solid red;  cursor: cell;}
+ .linha_equipe:hover .nome_equipe{  border: 1px solid red;  cursor: cell;}
+
+ .equipe{
+    float:left;
+    
+}
+.img_equipe{
+    width: 60px;
+   
+    height: 60px !important;
+    margin-left: 5px;
+   
+    border-radius: 25px 25px 25px 25px;
+    border: 1px solid silver;
+}
+.nome_equipe{
+   width: 150px;
+   
+   margin-left: 5px;
+   height: 30px !important;
+   margin-top: 10px;
+   line-height: 30px;
+   margin-right: 5px;
+   border: 1px solid silver;
+   text-align: center;
+}.nome_equipe:hover{}
+
+    
+#sustenta_down_legendas{
+    float:left;
+    width: 980px;
+   
+    margin-top: 15px;
+  
+  
+    
+    background: white;
+    border: 1px solid silver;
+    border-radius: 25px 25px 25px 25px;
+    
+}
+
+#ep{
+    margin-left: 38px;
+}
+#logo_topo_abaixo{
+    float:left;
+    width: 250px;
+    height: 50px;
+    background: white;
+    border-radius: 25px 25px 25px 25px;
+    line-height: 50px;
+    text-align: center;
+    border-right: 1px solid silver;
+    font-size: 20px;
+    font-family: cursive;
+    border-bottom: 1px solid silver;
+    color: #0ca4e2;
+}#logo_topo_abaixo:hover{
+        
+}
+#sustenta_busca_legendas{
+    float:left;
+    
+}
+#busca_legenda{
+    float: left;
+    margin-top: 20px;
+}
+
+#resulta_down_busca{
+   
+    float:left;
+    width: 950px;
+    
+    background: white;
+    border: 1px solid silver;
+    border-radius: 25px 25px 25px 25px;
+    margin-left: 20px;
+    margin-top: 5px;
+    margin-bottom: 300px;
+    padding: 5px;
+    box-shadow: 2px 2px 3px #cccccc;
+-moz-box-shadow: 2px 2px 3px #cccccc;
+-webkit-box-shadow: 2px 2px 3px #cccccc;
+padding-left: 10px;
+padding-right: 10px;
+padding-bottom: 10px;
+
+
+}
+
+.line_temp{
+    float: left;
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+    
+    
+    text-align: center;
+    margin-top: 15px;
+    color: #0ca4e2;
+    font-weight: bold;
+    background: silver;
+    font-family: cursive;
+    border-radius: 5px 5px 5px 5px;
+    
+    
+    background: #e9e9e9;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fbfbfb', endColorstr='#e9e9e9');
+    background: -webkit-gradient(linear, left top, left bottom, from(#fbfbfb), to(#e9e9e9));
+    background: -moz-linear-gradient(top, #fbfbfb, #e9e9e9);
+    border: 1px solid silver;
+}
+.line_texts{
+    
+    font-size: 15px;
+    float: left;
+    margin-top: 10px;
+    padding: 03px;
+    border: 1px solid silver;
+    font-family: cursive;
+    
+      text-align: center;
+    background: #e9e9e9;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fbfbfb', endColorstr='#e9e9e9');
+    background: -webkit-gradient(linear, left top, left bottom, from(#fbfbfb), to(#e9e9e9));
+    background: -moz-linear-gradient(top, #fbfbfb, #e9e9e9);
+    
+   
+}
+.line_texts:hover{
+    cursor: pointer;
+    background: greenyellow;
+}
+
+.apresentation{
+    
+    text-align: center;
+    background: #e9e9e9;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fbfbfb', endColorstr='#e9e9e9');
+    background: -webkit-gradient(linear, left top, left bottom, from(#fbfbfb), to(#e9e9e9));
+    background: -moz-linear-gradient(top, #fbfbfb, #e9e9e9);
+    border: 1px solid silver;
+    border-radius:  25px;
+    margin-top: 15px;
+    
+        color: #0ca4e2;
+    font-weight: bold;
+
+    font-family: cursive;
+    
+    width: 100%;
+    float: left;
+    
+}
+.checkbox{
+    
+    float:left;
+    width: 25px;
+    height: 20px;
+    margin-left: 05px;
+    margin-top: 13px;
+    border: 1px solid black;
+}
+.full_line{
+    
+    float: left;
+    width: 100%;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+
+}
+
+#submit_downs{
+    float: left;
+    width: 150px;
+    height: 30px;
+    margin: 0 auto;
+    
+    margin-left: 15px;
+        margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+
+
+/* rodape */
+#rodape{
+      float:left;
+      width: 100%;
+      height: 100px;
+      background: #555;
+     
+  }
+  #centro_rodape{
+      float:left;
+      width: 950px;
+      height: 30px;
+      background: black;
+      border-radius: 25px;
+      margin-top: 35px;
+  }
+  .text_centro_rodape{
+      margin-top: 07px;
+      float: left;
+      color: white;
+      border-right:  1px solid #CCC;
+      padding-right: 10px;
+      margin-left: 15px;
+      
+      font-family: 'Segoe UI',Arial,Helvetica,sans-serif;
+      font-size: 13px;
+  }
+  a:hover{
+      text-decoration: none;
+      color: red;
+  }
+  .retira_borda{
+      border: 0px !important;
+      margin-right: 30px;
+  }
+  .imgs_centro_rodape{
+      float:left;
+      
+      width: 30px;
+      height: 30px;
+      border-radius: 25px
+
+      
+      
+     
+  }
+  
+  #facebook{
+      background: url('sprite_1.png') -19px 0px #2C61AA;
+       border-bottom-right-radius:  800px;
+  
+  }
+  #facebook:hover{
+      background: url('sprite_1.png') -19px 0px red;
+      cursor: pointer;
+      border-radius: 0px;
+  }
+  #twitter{
+      background: url('sprite_1.png') -51px 0px #2C61AA;
+      margin-left: 05px;
+      border-bottom-left-radius:  800px;
+  }
+  #twitter:hover{
+      background: url('sprite_1.png') -51px 0px red;
+      cursor: pointer;
+      border-radius: 0px;
+  }

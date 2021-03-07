@@ -1,0 +1,231 @@
+/* 
+    Document   : login_admin.css
+    Created on : 17/10/2013, 16:45:59
+    Author     : Bruno
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+body{
+    font-family: cursive;
+}
+.centraliza{
+    margin: 0 auto;
+    width: 900px;
+    background: red;
+}
+*{
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+body{
+    background: aliceblue;
+}
+#admin{
+  margin: 0 auto;
+    margin-top: 15%;
+    width: 580px;
+ 
+  
+}
+#title{
+    float:left;
+    width: 580px;
+    height: 40px;
+    line-height: 40px;
+    
+    background:#2DB3E9;
+   
+    border-bottom-left-radius: 25px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    
+    color: white;
+
+}
+#magin{
+    float:left;
+    margin-left: 20px;
+    text-align: left;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: Arial Black;
+    background:none;
+    color: white;
+}
+#login_admin{
+    
+    float:left;
+
+  
+   
+}
+#ligacao{
+    float: right;
+    width: 30px;
+    height: 227px;
+    background:#2DB3E9;
+    
+}
+.lines{
+    float:left;
+    width: 550px;
+
+    margin-top: 10px;
+}
+.admin_labels{
+    float:left;
+    width: 50px;
+    margin-top: 15px;
+    margin-left: 20px;
+    height: 30px;
+    text-align: left;
+    line-height: 30px;
+ 
+    
+}
+.admin_inputs{
+    float:left;
+    width: 250px;
+    margin-top: 15px;
+    height: 30px;
+    border: 1px solid Silver;
+}
+.errors_inputs{
+    float:left;
+    margin-left: 10px;
+    margin-top: 15px;
+    width: 200px;
+    height: 30px;
+    text-align: left;
+    line-height: 30px;
+    color: red;
+    
+}
+#label_auto{
+    margin-top: 15px;
+    margin-left: 70px;
+}
+#label_auto:hover {
+   cursor: pointer;
+}
+#auto_login{
+    margin-top: 15px;
+   
+}
+#admin_enviar{
+    float:left;
+    width: 250px;
+    height: 25px;
+     margin-top: 10px;
+    margin-left: 70px;
+    
+}
+
+#ligacao_baixo{
+    
+    margin-left:15%;
+    float: left;
+    width: 85%;
+    height: 25px;
+    background:#2DB3E9;
+    
+    
+    border-bottom-left-radius: 25px;
+    border-top-left-radius: 25px;
+      border-bottom-right-radius: 25px;
+
+}
+
+#sustenta_sugestao_cadastro{
+    
+    float: right;
+    margin-top: 01.2px;
+   
+    
+    width: 250px;
+    
+    
+   
+}
+#cadastro{
+    color: white;
+    font-weight: bold;
+    font-family: arial;
+}
+
+
+#rodape{
+      float:left;
+      width: 100%;
+      height: 100px;
+      background: #555;
+      
+      position: absolute;
+      bottom: 0;
+     
+  }
+  #centro_rodape{
+      float:left;
+      width: 950px;
+      height: 30px;
+      background: black;
+      border-radius: 25px;
+      margin-top: 35px;
+  }
+  .text_centro_rodape{
+      margin-top: 07px;
+      float: left;
+      color: white;
+      border-right:  1px solid #CCC;
+      padding-right: 10px;
+      margin-left: 15px;
+      
+      font-family: 'Segoe UI',Arial,Helvetica,sans-serif;
+      font-size: 13px;
+  }
+  a:hover{
+      text-decoration: none;
+  
+  }
+  .retira_borda{
+      border: 0px !important;
+      margin-right: 30px;
+  }
+  .imgs_centro_rodape{
+      float:left;
+      
+      width: 30px;
+      height: 30px;
+      border-radius: 25px
+
+      
+      
+     
+  }
+  
+  #facebook{
+      background: url('sprite_1.png') -19px 0px #2C61AA;
+       border-bottom-right-radius:  800px;
+  
+  }
+  #facebook:hover{
+      background: url('sprite_1.png') -19px 0px red;
+      cursor: pointer;
+      border-radius: 0px;
+  }
+  #twitter{
+      background: url('sprite_1.png') -51px 0px #2C61AA;
+      margin-left: 05px;
+      border-bottom-left-radius:  800px;
+  }
+  #twitter:hover{
+      background: url('sprite_1.png') -51px 0px red;
+      cursor: pointer;
+      border-radius: 0px;
+  }

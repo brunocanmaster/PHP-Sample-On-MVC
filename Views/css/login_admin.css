@@ -1,0 +1,127 @@
+/* 
+    Document   : login_admin.css
+    Created on : 17/10/2013, 16:45:59
+    Author     : Bruno
+    Description:
+        Purpose of the stylesheet follows.
+*/
+*{
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background: aliceblue;
+}
+#admin{
+  margin: 0 auto;
+    margin-top: 15%;
+    width: 580px;
+ 
+  
+}
+#title{
+    float:left;
+    width: 580px;
+    height: 40px;
+    line-height: 40px;
+    
+    background:#2DB3E9;
+   
+    border-bottom-left-radius: 25px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+
+}
+#magin{
+    float:left;
+    margin-left: 20px;
+    text-align: left;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: Arial Black;
+    background:none;
+    color: white;
+}
+#login_admin{
+    
+    float:left;
+
+  
+   
+}
+#ligacao{
+    float: right;
+    width: 30px;
+    height: 227px;
+    background:#2DB3E9;
+    
+}
+.lines{
+    float:left;
+    width: 550px;
+
+    margin-top: 10px;
+}
+.admin_labels{
+    float:left;
+    width: 50px;
+    margin-top: 15px;
+    margin-left: 20px;
+    height: 30px;
+    text-align: left;
+    line-height: 30px;
+    font-weight: bold;
+    
+}
+.admin_inputs{
+    float:left;
+    width: 250px;
+    margin-top: 15px;
+    height: 30px;
+    border: 1px solid Silver;
+}
+.errors_inputs{
+    float:left;
+    margin-left: 10px;
+    margin-top: 15px;
+    width: 200px;
+    height: 30px;
+    text-align: left;
+    line-height: 30px;
+    
+}
+#label_auto{
+    margin-top: 15px;
+    margin-left: 70px;
+}
+#label_auto:hover {
+   cursor: pointer;
+}
+#auto_login{
+    margin-top: 15px;
+   
+}
+#admin_enviar{
+    float:left;
+    width: 250px;
+    height: 25px;
+     margin-top: 10px;
+    margin-left: 70px;
+    
+}
+
+#ligacao_baixo{
+    
+    margin-left:15%;
+    float: left;
+    width: 85%;
+    height: 25px;
+    background:#2DB3E9;
+    
+    
+    border-bottom-left-radius: 25px;
+    border-top-left-radius: 25px;
+      border-bottom-right-radius: 25px;
+
+}

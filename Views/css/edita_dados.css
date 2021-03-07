@@ -1,0 +1,648 @@
+/* 
+    Document   : edita_dados
+    Created on : 27/03/2015, 19:55:23
+    Author     : alunos.senai
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* Topo */
+.corpo{
+    width: 100%;
+    float: left;
+    min-width: 1000px;
+}
+* { 
+  
+    margin: 0px;
+    padding: 0px;
+    
+}
+body{
+   background-color: rgba(0, 0, 0, 0.03);
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+   
+    
+    
+   
+   
+   
+}
+
+a{
+    text-decoration: none;
+}
+
+
+#topo{
+
+      
+min-height: 70px;
+background: transparent;
+color: #1CAFF6;
+max-height: 70px;
+border-top: 10px solid #555;
+
+box-shadow: 0px 0px 10px 0px black;
+width: 100% !important;
+
+  }
+  .centraliza{
+      margin: 0 auto;
+      width: 900px;
+     background: blue;
+  }
+ 
+  #topo #logo{
+      float: left;
+      margin-top: 15px;
+      
+      color: #555;
+      font-size: 30px;
+      font-family: cursive;
+      font-weight: bold;
+  }
+  #topo #logo:hover {
+      border-bottom: 2px solid #555;
+  }
+
+  #topo #sustenta_busca{
+      float:left;
+      margin-top: 25px;
+      background: green;
+      margin-left: 80px;
+      
+     
+  }
+  #topo #sustenta_busca #busca{
+      float:left;
+      width: 250px;
+      height: 31px;
+      
+      
+  }
+  #topo #sustenta_busca #enviar{
+      background: url('search.png') #58b1fc no-repeat 15px !important;
+      width: 50px;
+      height: 30px;
+      float: left;
+      border: 1px solid #58b1fc !important;
+      
+  }
+  #topo #sustenta_favorito{
+      float:left;
+      width: 20px;
+      height: 20px;
+      background: url('cleanheader.png') -20px -80px white;
+      border-radius: 5px;
+    margin-left: 50px;
+    margin-top: 30px;
+  }
+  #hover_favorito{
+      float:left;
+      width: 250px;
+      height: 150px;
+      margin-top: 20px;
+      background: white;
+      border: 1px solid #555;
+      border-radius: 10px;
+      display: none;
+      border: 2px solid white;
+      position: relative;
+  }
+  #topo #sustenta_favorito:hover{
+      cursor: pointer;
+      background: url('cleanheader.png') -20px -80px white;
+       border-radius: 5px;
+        border: 2px solid #1CAFF6;
+  }
+  #topo #sustenta_favorito:hover #hover_favorito{
+      display: block;
+     
+  }
+  #topo #sustenta_historico{
+      float: left;
+      width: 20px;
+      height: 20px;
+      background: url('cleanheader.png') -40px -80px white;
+      border-radius: 5px;
+      margin-left: 20px;
+      margin-top: 30px;
+    
+  }
+  #hover_historico{
+       float:left;
+      width: 250px;
+      height: 150px;
+      margin-top: 20px;
+      background: white;
+      border: 1px solid #555;
+      border-radius: 10px;
+      display: none;
+       position: relative;
+  }
+  #topo #sustenta_historico:hover{
+      cursor: pointer;
+      background: url('cleanheader.png') -40px -80px white;
+      border-radius: 5px;
+      border: 2px solid #1CAFF6;
+  
+  }
+  #topo #sustenta_historico:hover #hover_historico{
+      display: block;
+  }
+  #topo #sustenta_busca #enviar{
+      float: left;
+      height: 30px;
+      border: 1px solid silver;
+      background: white;
+  }
+  #topo #sustenta_menus{
+      float: left;
+      
+      margin-left: 30px;
+      background: white;
+      height: 50px;
+      line-height: 50px;
+      color: white;
+      width: 100px;
+      text-align: center;
+
+      background:#1CAFF6;
+      border-right: 5px solid black;
+      
+    
+  }
+   #topo #login{
+       
+       display: none;
+       
+       text-decoration: none;
+      float: right;
+      padding: 10px;
+      font-size: 11px;
+      height: 20px;
+       line-height: 20px;
+font-family: "lucida grande",tahoma,verdana,arial,sans-serif;
+     border-bottom-left-radius: 05px;
+     border-bottom-right-radius: 05px;
+     
+      text-align: center;
+     
+      background:#555;
+      color: white;
+      font-weight: bold;
+     
+      font-family: Cursive;
+      padding-left: 25px;
+      padding-right: 25px;
+      padding-bottom: 15px;
+   
+      
+  }
+  /* background-color: rgba(32, 166, 231, 0.8);
+background-image: -moz-linear-gradient(top, #20a8e9, rgba(30,158,220,0.5));
+background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#20A8E9), to(rgba(30, 158, 220, 0.5)));
+background-image: -webkit-linear-gradient(top, #20A8E9, rgba(30, 158, 220, 0.5));
+background-image: -o-linear-gradient(top, #20a8e9, rgba(30,158,220,0.5));
+background-image: linear-gradient(to bottom, #20A8E9, rgba(30, 158, 220, 0.5));
+  */
+  #topo #login_late{
+      
+      float: right;
+      width: 150px;
+      height: 40px;
+
+      padding-left: 5px;
+      padding-right: 5px;
+      padding-bottom: 5px;
+      border-radius: 25px;
+      padding-top: 5px; 
+      border: 1px solid rgba(0, 0, 0, 0.15);
+      border-top: 0px;
+      background: #555;
+ 
+  }
+  #topo #login_late:hover{
+      background-color: #555!important;
+      cursor: pointer;
+
+      border-bottom-right-radius: 0px;
+      border-bottom: 0px;
+      border-bottom-left-radius:35px;
+      
+       
+  }
+ 
+  #img_login_late{
+      margin-top: 03px;
+      float:left;
+      width: 33px;
+      height: 32px;
+      float: left;
+      margin-left: 15px;
+     
+      border-radius: 25px;
+      border: 2px solid rgba(255, 255, 255, 0.5);
+        
+    
+      
+  }
+  #name_login_late{
+      float: left;
+      color: white;
+      font-weight: bold;
+      font-size: 11px;
+      max-width: 150px;
+      margin-left: 10px;
+  
+      margin-top: 05px;
+      text-align: left;
+      line-height: 30px;
+      
+      padding-left: 5px;
+      padding-right: 5px;
+  }
+  #button_login_late{
+      color: white;
+      float: left;
+      width: 30px;
+      text-align: center;
+      margin-left: 10px;
+      margin-top: 15px;
+     
+     
+  }
+  
+   #login_late:hover #configs_login_late{
+      display: block !important;
+  }
+  
+  #configs_login_late{
+      display: none;
+      float:left;
+      width: 200px;
+      height: 30px;
+      background: red;
+      margin-left: 0px;
+      margin-left: 20px;
+      margin-top: 06px;
+      background:#555;
+      color: white;
+
+      position: relative;
+      
+       
+  }
+  #text_horas{
+      float: left;
+      width: 180px;
+      height: 30px;
+      line-height: 30px;
+ 
+      text-align: center;
+      font-size: 13px;
+      font-weight: bold;
+      
+   
+      
+  }
+  #icon_horas{
+      float: left;
+      width: 15px;
+      height: 15px;
+      margin-top: 08px;
+      margin-right: 05px;
+      background: url('icons-p2.png') no-repeat -190px -174px;
+      
+  
+      
+  }
+  .lines_configs_login_late{
+      float: left;
+      width: 100%;
+      background: white;
+      
+      border-left: 1px solid rgba(0, 0, 0, 0.15);
+       border-right: 1px solid rgba(0, 0, 0, 0.15);
+       
+       
+  }
+  .lines_configs_login_late:hover{
+      background: #58b1fc;
+      border-left:  2px solid #555;
+  }
+  
+  .text_configs_login_late{
+      float: left;
+      width: 150px;
+      height: 30px;
+      line-height: 30px;
+      text-align: center;
+
+      color: #333;
+      font-size: 12px;
+      
+          font-family: cursive;
+      
+  }
+
+  .lines_configs_login_late:hover .text_configs_login_late{
+       color: white;
+  }
+  
+  .icons_configs_login_late{
+      float:left;
+      width: 15px;
+      height: 15px;
+      color: #333;
+      font-size: 12px;
+     
+      margin-top: 08px;
+       
+      background: black;
+  }
+ 
+  #edit_account{
+      
+      background: url('admin.png') no-repeat -7.5px -8px;
+      
+ 
+  }
+  #favoritos_account_sustain:hover #favoritos_account{
+      
+      background: url('icons-p2.png') -12.5px -199.5px red !important;
+      border-radius: 25px;
+      
+  }
+  #favoritos_account{
+      
+      background: url('icons-p2.png') -12.5px -199.5px silver !important;
+      border-radius: 25px;
+  }
+  #favoritos_account:hover{
+      
+      background: url('icons-p2.png') -12.5px -199.5px red !important;
+      border-radius: 25px;
+  }
+  #admin{
+      
+      background: url('adminb.gif') no-repeat;
+      background-size: 100% 100%;
+      
+  }
+  #ajuda{
+      
+      background: url('icon_ajuda.gif') no-repeat ;
+      background-size: 100% 100%;
+  }
+  
+ 
+  #sustenta_logout{
+
+       border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+       border-top: 1px solid rgba(0, 0, 0, 0.15);;
+  }
+  #sustenta_logout:hover{
+      background: #CCC;
+      
+  }
+  #logout{
+      background: url('icons-p2.png') no-repeat -175px -158px;
+     
+      
+  }
+  #topo #sustenta_menus #hover_sustenta_menus{
+      float:left;
+      width: 200px;
+      position: relative;
+      background: white;
+      border-radius: 10px 10px 10px 10px;
+      box-shadow: 0 2px 15px rgba(0, 0, 0, 0.2);
+
+    border-top: 10px solid #fff;
+      border-bottom: 10px solid #FFF;
+      font: 500 15px/20px "museo-sans-rounded",sans-serif;
+    
+      color: #333;
+  }
+  #topo #sustenta_menus:hover{
+      
+      
+      border-radius: 0px;
+      border-top-left-radius: 5px;
+      border-top-right-radius: 5px;
+  }
+  
+  #topo #sustenta_menus:hover #hover_sustenta_menus{
+      display: block !important;
+      
+  }
+  
+ 
+  
+  #topo .menus{
+     margin: 0 auto;
+      
+      height: 25px;
+      line-height: 25px;
+      font-family: Arial;
+      font-weight: bold;
+      color: black;
+      font-size: 15px;
+      
+      padding: 05px;
+      
+      padding-left: 20px;
+      padding-right: 20px;
+  }
+  #topo .menus:hover{
+      background-color: rgba(32, 166, 231, 0.8);
+background-image: -moz-linear-gradient(top, #20a8e9, rgba(30,158,220,0.5));
+background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#20A8E9), to(rgba(30, 158, 220, 0.5)));
+background-image: -webkit-linear-gradient(top, #20A8E9, rgba(30, 158, 220, 0.5));
+background-image: -o-linear-gradient(top, #20a8e9, rgba(30,158,220,0.5));
+background-image: linear-gradient(to bottom, #20A8E9, rgba(30, 158, 220, 0.5));
+cursor: pointer;
+
+ 
+  }
+
+/* Corpo */
+root { 
+    display: block;
+}
+
+#corpo{
+    float: left;
+    width: 100%;
+    
+    margin-top: 50px;
+    
+}
+
+#sustenta_img{
+    float: left;
+    width: 200px;
+    height: 215px;
+    background: white;
+    
+    box-shadow: 2px 2px 3px #cccccc;
+moz-box-shadow: 2px 2px 3px #cccccc;
+-webkit-box-shadow: 2px 2px 3px #cccccc;
+border: 1px solid silver;
+
+
+}
+#img{
+    float: left;
+    width: 100%;
+    height: 190px;
+    background: #Ccc;
+}
+#button_img{
+    margin-left: 35px;
+    width: 115px;
+    height: 30px;
+    
+}
+.SI-FILES-STYLIZED input#button_img{
+   
+}
+
+
+#title_sustenta_dados{
+    float: left;
+    width: 900px;
+    height: 30px;
+     box-shadow: 2px 2px 3px #cccccc;
+moz-box-shadow: 2px 2px 3px #cccccc;
+-webkit-box-shadow: 2px 2px 3px #cccccc;
+border: 1px solid silver;
+
+line-height: 30px;
+font-weight: bold;
+text-align: center;
+font-family: sans-serif;
+background: white;
+    
+    
+}
+
+#sustenta_dados{
+    float: left;
+    margin-left: 30px;
+    width: 650px;
+     
+    background: white;
+    margin-top: 10px;
+   
+    box-shadow: 2px 2px 3px #cccccc;
+moz-box-shadow: 2px 2px 3px #cccccc;
+-webkit-box-shadow: 2px 2px 3px #cccccc;
+border: 1px solid silver;
+
+border-radius: 05px;
+padding-bottom: 10px;
+}
+
+.lines_dados{
+    float: left;
+    width: 60%;
+    margin-top: 15px;
+    margin-left: 5%;    
+
+}
+.inputs_dados{
+    width: auto;
+    min-width: 250px;
+    height: 30px;
+    line-height: 30px;
+    
+}
+.error_dados{
+    margin-top: 18px;
+    float: left;
+    width: 35%;
+   
+    height: 30px;
+    line-height: 30px;
+    background: #CCC;
+}
+.submit_reset_dados{
+    float:left;
+    width: 150px;
+    height: 30px;
+    margin-left: 05px;
+}
+
+/* rodape */
+
+#rodape{
+      float:left;
+      width: 100%;
+      height: 100px;
+      background: #555;
+      
+      position: absolute;
+      bottom: 0;
+  }
+  #centro_rodape{
+      float:left;
+      width: 950px;
+      height: 30px;
+      background: black;
+      border-radius: 25px;
+      margin-top: 35px;
+  }
+  .text_centro_rodape{
+      margin-top: 07px;
+      float: left;
+      color: white;
+      border-right:  1px solid #CCC;
+      padding-right: 10px;
+      margin-left: 15px;
+      
+      font-family: 'Segoe UI',Arial,Helvetica,sans-serif;
+      font-size: 13px;
+  }
+  a:hover{
+      text-decoration: none;
+      color: red;
+  }
+  .retira_borda{
+      border: 0px !important;
+      margin-right: 30px;
+  }
+  .imgs_centro_rodape{
+      float:left;
+      
+      width: 30px;
+      height: 30px;
+      border-radius: 25px
+
+      
+      
+     
+  }
+  
+  #facebook{
+      background: url('sprite_1.png') -19px 0px #2C61AA;
+       border-bottom-right-radius:  800px;
+  
+  }
+  #facebook:hover{
+      background: url('sprite_1.png') -19px 0px red;
+      cursor: pointer;
+      border-radius: 0px;
+  }
+  #twitter{
+      background: url('sprite_1.png') -51px 0px #2C61AA;
+      margin-left: 05px;
+      border-bottom-left-radius:  800px;
+  }
+  #twitter:hover{
+      background: url('sprite_1.png') -51px 0px red;
+      cursor: pointer;
+      border-radius: 0px;
+  }

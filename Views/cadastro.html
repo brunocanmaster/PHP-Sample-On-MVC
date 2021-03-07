@@ -1,0 +1,96 @@
+<!--
+To change this template, choose Tools | Templates
+and open the template in the editor.
+-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <link rel="stylesheet" type="text/css" href="/Views/css/cadastro.css" />
+    </head>
+    <body>
+        
+        
+        <div id="sustenta_corpo">
+           
+            <div class="centraliza">
+                
+            <div id="topo_corpo"   class="corpo">
+                <a class="text" href="/home/">Cadastro | Legendaz</a>
+                <div id="link_login" style="float: right; margin-right: 10px; margin-top: 18px; ">Já possui conta ?
+                    <a href="login">Logar!</a>
+                </div>
+            </div>
+            <div id="centro" class="corpo">
+                <form id="cadastro" action="cadastro/cadastrar"  method="post" enctype="multipart/form-data">
+                    
+                
+                    
+                    <div class="lines">
+                        <div class="labels" >Nome</div>
+                        <input id="input_nome" type="text" class="input" name="nome"  placeholder="Nome Completo" />
+                        <div class="errors"><!-- $#ERROR_NOME#$ --></div>
+                    </div>
+                    
+                    <div class="lines">
+                        <div class="labels" >Email</div>
+                        <input id="input_email" type="email" class="input" name="email"  placeholder="Email" />
+                        <div class="errors"><!-- $#ERROR_EMAIL#$ --></div>
+                    </div>
+                    
+                    <div class="lines">
+                        <div class="labels">Foto</div>
+                        <input id="input_foto" type="file" class="input" name="sma_img"  />
+                        <div class="errors"><!-- $#ERROR_FOTO#$ --></div>
+                    </div>
+                    
+                    <div class="lines">
+                        <div class="labels">Senha</div>
+                        <input id="input_password" type="password" class="input" name="senha" placeholder="senha" />
+                        <div class="errors"><!-- $#ERROR_SENHA#$ --></div>
+                    </div>
+                    
+                    
+                    
+                    <div class="lines">
+                        <div class="labels"></div>
+                        <input type="submit" class="input margin-bottom botoes" value="Cadastrar" />
+                        <input type="reset" class="input margin-bottom botoes"  value="Limpar"/>
+                    </div>
+                    
+                </form>
+            </div>
+                
+            
+            
+            </div>
+            
+        </div>
+        
+        <div class="centraliza">
+        <div id="abaixo" class="corpo">
+                
+            </div>
+        </div>
+        
+        <div id="rodape">
+            
+            <div class="centraliza">
+                <div id="centro_rodape">
+                    <div class="text_centro_rodape">© 2015</div>
+                    <a class="text_centro_rodape" href="home">Legendaz - Porque escreveremos do jeito que quisermos!</a>
+                    <a  href="/home/" class="text_centro_rodape">Página Inicial</a>
+                    <a  href="/home/termos" class="text_centro_rodape">Termos de uso</a>
+                    <a  href="/home/politicadeprivacidade" class="text_centro_rodape retira_borda">Política de Privacidade</a>
+                    <a  href="http://www.facebook.com.br" id="facebook" title="Facebook" class="imgs_centro_rodape"></a>
+                    <a  href="http://www.twitter.com.br" id="twitter" title="Twitter" class="imgs_centro_rodape"></a>
+                </div>    
+            </div>
+            
+        </div>
+
+
+    </body>
+    
+</html>

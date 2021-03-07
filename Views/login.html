@@ -1,0 +1,68 @@
+<!--
+To change this template, choose Tools | Templates
+and open the template in the editor.
+-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <link rel="stylesheet" type="text/css" href="/Views/css/login_home.css" />
+    </head>
+    <body>
+        
+        <div id="admin">
+            <div id="title"><div id="magin"><a href="home">$#title#$</a> </div></div>
+            <form id="login_admin" method="post" action="login/logar">
+                
+                
+                   <div id="ligacao"> </div>
+                
+                   <div class="lines">
+                   <label for="admin_email" class="admin_labels">Email </label>
+                   <input id="admin_email" class="admin_inputs" type="email" name="email" placeholder="Email" />
+                <div class="errors_inputs"><!-- $#ERROR_EMAIL#$ --></div>
+                   </div>
+                   
+                    <div class="lines">
+                <label for="admin_senha" class="admin_labels">Senha </label>
+                <input id="admin_senha" class="admin_inputs" type="password" name="senha" placeholder="Senha" />
+                 <div class="errors_inputs"><!-- $#ERROR_SENHA#$ --></div>
+                    </div>
+                   
+                   <div class="lines">
+                <label id="label_auto" for="auto_login">Lembrar minhas informações</label>
+                <input id="auto_login" type="checkbox" name="auto_login" value="none" />
+                   </div>
+                
+                   <div class="lines">
+                <input id="admin_enviar" type="submit" value="Logar" />
+                   </div>
+                
+                <div id="ligacao_baixo">
+                    <div id="sustenta_sugestao_cadastro">
+                   Não possui conta? <a id="cadastro" href="cadastro">Cadastrar</a>
+                    </div>
+                </div>
+            </form>
+            
+        </div>
+        
+        <div id="rodape">
+            
+            <div class="centraliza">
+                <div id="centro_rodape">
+                    <div class="text_centro_rodape">© 2015</div>
+                    <div class="text_centro_rodape">Legendaz - Porque escreveremos do jeito que quisermos!</div>
+                    <a  href="/home/" class="text_centro_rodape">Página inicial</a>
+                    <a  href="/home/termos" class="text_centro_rodape">Termos de uso</a>
+                    <a  href="/home/politicadeprivacidade" class="text_centro_rodape retira_borda">Política de Privacidade</a>
+                    <a  href="http://www.facebook.com.br" id="facebook" title="Facebook" class="imgs_centro_rodape"></a>
+                    <a  href="http://www.twitter.com.br" id="twitter" title="Twitter" class="imgs_centro_rodape"></a>
+                </div>    
+            </div>
+            
+        </div>
+       
+    </body>
+</html>
